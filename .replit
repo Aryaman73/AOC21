@@ -1,0 +1,3 @@
+run = ["python", "AOC2/main.py"]
+
+language = "python"
