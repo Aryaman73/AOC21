@@ -1,3 +1,3 @@
-run = ["python", "AOC2/main.py"]
+run = ["python", "AOC3/main.py"]
 
 language = "python"
