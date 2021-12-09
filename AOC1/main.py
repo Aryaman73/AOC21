@@ -1,15 +1,17 @@
+# Running on repl.it? Switch to the shell > python AOC1/main.py
+
 # Part 2
 f = open("input.txt", "r")
 increaseCount = 0
-prevbefore3 = 99999
-before2 = 99999
-before1 = 99999
+before3 = float('inf')
+before2 = float('inf')
+before1 = float('inf')
 for x in f:
-  if (int(x) > prevbefore3):
-    increaseCount += 1
-  prevbefore3 = before2
-  before2 = before1
-  before1 = int(x)
+	if (int(x) > before3):
+		increaseCount += 1
+	before3 = before2
+	before2 = before1
+	before1 = int(x)
 print(increaseCount)
 
 # Part 1
